@@ -9,5 +9,9 @@ try:
 
     print "Beginning script."
 
+    coolArray = np.zeros(20)+np.random.rand(20)
+    
+    print coolArray
+
 except Exception, e:
     print 'You broke it. Good job. Now try again, but this time with feeling.'
