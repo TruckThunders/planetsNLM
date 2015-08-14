@@ -9,7 +9,7 @@ try:
 
     print "Beginning script."
 
-    coolArray = np.zeros(20)+np.random.rand(20)
+    coolArray = np.random.rand(20)
     
     print coolArray
 
